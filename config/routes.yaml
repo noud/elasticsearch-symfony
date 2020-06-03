@@ -1,3 +1,12 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+   path: /
+   controller: App\Controller\IndexController::index
+test_auth:
+    path: /test/auth
+    controller: App\Controller\TestController::auth
+test_suggest:
+    path: /test/_suggest
+    controller: App\Controller\TestController::suggest
+test_search:
+    path: /test/_search
+    controller: App\Controller\TestController::search
