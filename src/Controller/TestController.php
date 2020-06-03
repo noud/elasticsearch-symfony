@@ -39,10 +39,10 @@ class TestController extends AbstractController
             "keywordSuggester" => [
                 [
                     "options" => [
-                        [
-                            'text' => 'Java',
-                            'score' => 1
-                        ],
+                        // [
+                        //     'text' => 'Java',
+                        //     'score' => 1
+                        // ],
                         [
                             'text' => 'JavaScript',
                             'score' => 10
